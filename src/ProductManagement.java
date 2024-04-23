@@ -18,11 +18,11 @@ public class ProductManagement {
         for (int i = 0; i < productList.size(); i++){
             if (productList.get(i).getName().equals(productName)){
                 productList.remove(i);
-                System.out.println("Product with the name" + productName + "have been succesfully removed");
+                System.out.println(productName + " have been succesfully removed");
                 return;
             }
         }
-        System.out.println("Product with the name" + productName + "were not found");
+        System.out.println(productName + " were not found");
     }
 
     // edit products by the name
@@ -31,11 +31,10 @@ public class ProductManagement {
             if (product.getName().equals(productName)){
                 product.setPrice(newPrice);
                 product.setStock(newStock);
-                System.out.println("Product with the name " + productName + "was succesfully edited");
+                System.out.println(productName + " was succesfully edited");
                 return;
             }
         }
-        System.out.println("Product with the name" + productName + "were not found");
     }
 
     // Displays a list of products
@@ -55,7 +54,7 @@ public class ProductManagement {
                 return;
             }
         }
-        System.out.println("Product with the name" + productName + "were not found" );
+        System.out.println(productName + " were not found" );
     }
 }
 
