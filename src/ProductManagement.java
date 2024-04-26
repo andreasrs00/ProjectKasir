@@ -56,5 +56,9 @@ public class ProductManagement {
         }
         System.out.println(productName + " were not found" );
     }
+
+    public List<Product> getProductList() {
+        return productList;
+    }
 }
 

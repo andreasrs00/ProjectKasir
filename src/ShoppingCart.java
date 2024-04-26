@@ -15,7 +15,19 @@ public class ShoppingCart {
         System.out.println(product.getName() + " was successfully added to the cart" );
     }
 
-    // Calculate the total shopping price in the basket
+    // Remove a product from the shopping cart
+    public void removeFromCart(String productName) {
+        for (int i = 0; i < cartItems.size(); i++) {
+            if (cartItems.get(i).getName().equals(productName)) {
+                cartItems.remove(i);
+                System.out.println(productName + " was successfully removed from the cart.");
+                return;
+            }
+        }
+        System.out.println(productName + " was not found in the cart.");
+    }
+
+    // Calculate the total shopping price in the cart
     public double calculateTotalPrice(){
         double totalPrice = 0;
         for (Product product : cartItems){
@@ -38,4 +50,7 @@ public class ShoppingCart {
         System.out.println("The shopping cart was successfully emptied.");
     }
 
+    public List<Product> getCartItems() {
+        return cartItems;
+    }
 }

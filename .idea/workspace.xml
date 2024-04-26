@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cfc5eed-abf8-440d-9442-63cdcc6de287" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SalesTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProductManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -38,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Form.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
