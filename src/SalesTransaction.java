@@ -33,7 +33,7 @@ public class SalesTransaction {
         return null;
     }
 
-    // metod to print for the current shopping cart
+    // method to print for the current shopping cart
     public void printReceipt() {
         double totalPrice = shoppingCart.calculateTotalPrice();
         if (totalPrice > 0) {

@@ -15,6 +15,7 @@ public class Buyer extends User {
         Product product = productManagement.searchProduct(productName);
         if (product != null) {
             shoppingCart.addToCart(product);
+            System.out.println("Product added to cart: " + product.getName());
         } else {
             System.out.println("Product not found.");
         }
